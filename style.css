@@ -6,6 +6,7 @@ html {
 }
 
 #nav {
+    background-color: white;
     width: 10%;
     height: 10%;
     display: flex;
