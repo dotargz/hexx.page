@@ -7,14 +7,14 @@ html {
 
 .navbar {
     width: 100%;
-    background-color: white;
+    background-color: #FFC100;
     overflow: auto;
   }
   
   .navbar a {
     float: left;
     padding: 12px;
-    color: #FFC100;
+    color: white;
     text-decoration: none;
     font-size: 17px;
   }
@@ -24,7 +24,7 @@ html {
   }
   
   .active {
-    background-color: white;
+    background-color: #FFC100;
   }
   
   @media screen and (max-width: 500px) {
