@@ -1,5 +1,6 @@
 # hexx.page
 ### Very Heavily Inspired by js.org
+[![pages-build-deployment](https://github.com/dotargz/hexx.page/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/dotargz/hexx.page/actions/workflows/pages/pages-build-deployment)
 
 To get a Free, Performant, Easy-to-use subdomains for your own GitHub Pages site follow these 4 Steps:
 
