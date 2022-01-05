@@ -61,3 +61,8 @@ input {
   padding: 12px 20px 12px 20px;
   color: whitesmoke;
 }
+
+h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
