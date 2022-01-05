@@ -26,13 +26,13 @@ html {
 /* unvisited link */
 a:link {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* mouse over link */
