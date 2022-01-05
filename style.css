@@ -1,35 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vw;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
-.navbar {
-    width: 100%;
-    background-color: #FFC100;
-    overflow: auto;
-  }
-  
-  .navbar a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background-color: #ffa600;
-  }
-  
-  .active {
-    background-color: #FFC100;
-  }
-  
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.grad {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* selected link */
+a:active {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
