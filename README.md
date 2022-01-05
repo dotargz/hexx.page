@@ -4,7 +4,7 @@ Free, Performant, Easy-to-use subdomains for any project!
 To get a short and sleek subdomain for your own GitHub Pages site follow these 4 Steps:
 
 ## Step 1
-If you haven't already, now it's time to log in to your GitHub account and set up your GitHub Pages site following the instructions here. To get a head start you can simply use the generator with one of the provided themes and add some reasonable content to your new page.
+If you haven't already, now it's time to log in to your GitHub account and set up your GitHub Pages site following the instructions [here](https://pages.github.com/). To get a head start you can simply use the generator with one of the provided themes and add some reasonable content to your new page.
 
 ## Step 2
 Now determine your js.org subdomain: either choose your username or the name of your repo according to the existing GitHub Pages URL (for http://foo.github.io/bar, either foo.js.org or bar.js.org would be possible). More details in the wiki.
